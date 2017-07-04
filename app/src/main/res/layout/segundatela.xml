@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ADEF">
+
+
+    <Button
+        android:text="X"
+        android:id="@+id/xBTid"
+        android:background="#00ADEF"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:elevation="0dp"
+        android:contextClickable="false"
+        android:cursorVisible="false"
+        android:elegantTextHeight="false"
+        android:requiresFadingEdge="none"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        tools:ignore="HardcodedText,TextViewEdits,UnusedAttribute" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_below="@+id/xBTid"
+        android:layout_marginTop="75dp"
+        tools:ignore="ExtraText"><![CDATA[>
+
+
+
+        ]]>
+
+        <TextView
+            android:text="Escolha a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:layout_alignTop="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:textIsSelectable="false"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        <TextView
+            android:text="foma de pagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="34dp"
+            android:textStyle="normal|bold"
+            android:textIsSelectable="false"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <Button
+            android:layout_width="300dp"
+            android:id="@+id/creditoBTid"
+            android:background="@drawable/btncre"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_height="60dp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <Button
+                android:layout_width="300dp"
+            android:id="@+id/debitoBTid"
+                android:background="@drawable/btndeb"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_height="60dp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/selfieBTid"
+            android:background="@drawable/btnfoto"
+            android:elevation="1dp"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/creditoBTid"
+            android:layout_marginBottom="10dp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="android.support.v7.widget.AppCompatImageView"
+            android:id="@+id/a1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+

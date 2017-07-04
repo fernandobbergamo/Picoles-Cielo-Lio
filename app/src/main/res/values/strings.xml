@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Selfie</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="milho">Açaí</string>
+    <string name="coco">Coco</string>
+    <string name="amendoim">Amendoim</string>
+    <string name="tapioca">Tapioca</string>
+    <string name="morango">Morango</string>
+</resources>
+
+
